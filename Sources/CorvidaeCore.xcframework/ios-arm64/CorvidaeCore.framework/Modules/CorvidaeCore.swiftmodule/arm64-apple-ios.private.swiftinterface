@@ -1,0 +1,18 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios18.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name CorvidaeCore
+import CoreGraphics
+@_exported import CorvidaeCore
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class Corvidae {
+  public static let shared: CorvidaeCore.Corvidae
+  public func trackView(screenLocation: Swift.String? = "", screenName: Swift.String? = "", deepLink: Swift.String? = "", referrer: Swift.String? = "")
+  public func trackTransaction(transactionType: Swift.String, transactionId: Swift.String, transactionTotal: Foundation.Decimal, screenLocation: Swift.String? = "", screenName: Swift.String? = "", shipping: Foundation.Decimal? = nil, tax: Foundation.Decimal? = nil, currency: Swift.String? = "")
+  public func getConfig() -> (appId: Swift.String, hostname: Swift.String, property: Swift.String)
+  @objc deinit
+}

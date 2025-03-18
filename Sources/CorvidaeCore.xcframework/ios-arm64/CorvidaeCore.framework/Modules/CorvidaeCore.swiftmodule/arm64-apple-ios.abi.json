@@ -1,0 +1,506 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CorvidaeCore",
+    "printedName": "CorvidaeCore",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CorvidaeCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CorvidaeCore"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "CorvidaeCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Corvidae",
+        "printedName": "Corvidae",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Corvidae",
+                "printedName": "CorvidaeCore.Corvidae",
+                "usr": "s:12CorvidaeCore0A0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CorvidaeCore0A0C6sharedACvpZ",
+            "mangledName": "$s12CorvidaeCore0A0C6sharedACvpZ",
+            "moduleName": "CorvidaeCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Corvidae",
+                    "printedName": "CorvidaeCore.Corvidae",
+                    "usr": "s:12CorvidaeCore0A0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CorvidaeCore0A0C6sharedACvgZ",
+                "mangledName": "$s12CorvidaeCore0A0C6sharedACvgZ",
+                "moduleName": "CorvidaeCore",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "trackView",
+            "printedName": "trackView(screenLocation:screenName:deepLink:referrer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CorvidaeCore0A0C9trackView14screenLocation0E4Name8deepLink8referrerySSSg_A3ItF",
+            "mangledName": "$s12CorvidaeCore0A0C9trackView14screenLocation0E4Name8deepLink8referrerySSSg_A3ItF",
+            "moduleName": "CorvidaeCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackTransaction",
+            "printedName": "trackTransaction(transactionType:transactionId:transactionTotal:screenLocation:screenName:shipping:tax:currency:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decimal",
+                "printedName": "Foundation.Decimal",
+                "usr": "c:@SA@NSDecimal"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Decimal?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decimal",
+                    "printedName": "Foundation.Decimal",
+                    "usr": "c:@SA@NSDecimal"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Decimal?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decimal",
+                    "printedName": "Foundation.Decimal",
+                    "usr": "c:@SA@NSDecimal"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CorvidaeCore0A0C16trackTransaction15transactionType0E2Id0E5Total14screenLocation0I4Name8shipping3tax8currencyySS_SSSo9NSDecimalaSSSgAoNSgApOtF",
+            "mangledName": "$s12CorvidaeCore0A0C16trackTransaction15transactionType0E2Id0E5Total14screenLocation0I4Name8shipping3tax8currencyySS_SSSo9NSDecimalaSSSgAoNSgApOtF",
+            "moduleName": "CorvidaeCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getConfig",
+            "printedName": "getConfig()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(appId: Swift.String, hostname: Swift.String, property: Swift.String)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CorvidaeCore0A0C9getConfigSS5appId_SS8hostnameSS8propertytyF",
+            "mangledName": "$s12CorvidaeCore0A0C9getConfigSS5appId_SS8hostnameSS8propertytyF",
+            "moduleName": "CorvidaeCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12CorvidaeCore0A0C",
+        "mangledName": "$s12CorvidaeCore0A0C",
+        "moduleName": "CorvidaeCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 24,
+      "value": "\"AYAYAYAYAYEIEIEIEIEIEI\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 453,
+      "length": 23,
+      "value": "\"Corvidae initialised.\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 637,
+      "length": 26,
+      "value": "\"com.corvidae.accessQueue\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 756,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 794,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 832,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "IntegerLiteral",
+      "offset": 902,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 2375,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 2409,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 2441,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 2473,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 3041,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 3075,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 3170,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 5820,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 5854,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 5886,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 5918,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 5957,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 5994,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 6131,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 6167,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

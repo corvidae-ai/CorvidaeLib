@@ -1,0 +1,6 @@
+framework module CorvidaeCore {
+  umbrella header "CorvidaeCore.h"
+  export *
+
+  module * { export * }
+}
