@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/CorvidaeCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		t9bmvM56q3VT/3RPExLMY+yFZIQ=
+		g/8edXMXjkP7cIbJ4t98Kuxef+g=
 		</data>
 		<key>Modules/CorvidaeCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ISbXotnxLnGexqq4iklecQILVdc=
+		DJ20+8vStPVYr4echqlUXZ7c9iQ=
 		</data>
 		<key>Modules/CorvidaeCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/CorvidaeCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ISbXotnxLnGexqq4iklecQILVdc=
+		DJ20+8vStPVYr4echqlUXZ7c9iQ=
 		</data>
 		<key>Modules/CorvidaeCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xEyQJj8tYHjAfVLB3h+dJRcTPyo=
+		62tKvai9kuhVJaiKa3IKEKvAs7M=
 		</data>
 		<key>Modules/CorvidaeCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		t9bmvM56q3VT/3RPExLMY+yFZIQ=
+		g/8edXMXjkP7cIbJ4t98Kuxef+g=
 		</data>
 		<key>Modules/CorvidaeCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Y+wWZ/Ps1WabTOX8CbAeIJCdzJ4=
+		hx29zzc9puUhdTIepwvKop04nj0=
 		</data>
 		<key>Modules/CorvidaeCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/CorvidaeCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Y+wWZ/Ps1WabTOX8CbAeIJCdzJ4=
+		hx29zzc9puUhdTIepwvKop04nj0=
 		</data>
 		<key>Modules/CorvidaeCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hd6cMds3WOs7n8Q4tGn8ZhGEovQ=
+		P+kfAjY0TFZ/r21QV3htmIN2yGY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,14 +70,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1T5lJ+8YLLiAqL9KbBRc92iWSMia3kl9pvU+XTTwjJU=
+			Mgv5ObBvhBT0zMWORaarUCw+teZhXoge5oH/JBrljZY=
 			</data>
 		</dict>
 		<key>Modules/CorvidaeCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ENp/5MZNTRQSxS4vWXnZTqJjrlk33Whel2A7mO/gZ2w=
+			C0eIWHn8paACzU+nhyRKvnc+McSBn+k2Sxd5n+C2XUc=
 			</data>
 		</dict>
 		<key>Modules/CorvidaeCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -91,28 +91,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ENp/5MZNTRQSxS4vWXnZTqJjrlk33Whel2A7mO/gZ2w=
+			C0eIWHn8paACzU+nhyRKvnc+McSBn+k2Sxd5n+C2XUc=
 			</data>
 		</dict>
 		<key>Modules/CorvidaeCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wZBoRbMT92TKw5L71d3foh0TAQEZAcQoEDQ15eoLdm4=
+			oX7v1BU/bLckHeXt6wnQY/AS8xdixXmgd43G/j3a0wI=
 			</data>
 		</dict>
 		<key>Modules/CorvidaeCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1T5lJ+8YLLiAqL9KbBRc92iWSMia3kl9pvU+XTTwjJU=
+			Mgv5ObBvhBT0zMWORaarUCw+teZhXoge5oH/JBrljZY=
 			</data>
 		</dict>
 		<key>Modules/CorvidaeCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8KUw0/u1Ef4RqW4RfKeUl9KMf90mZ+nkdRLvEWoV36Y=
+			2fcGEvPC8i7yKZbZa5lVIlkGB3I0OHfP+KTkoEOCe6Q=
 			</data>
 		</dict>
 		<key>Modules/CorvidaeCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8KUw0/u1Ef4RqW4RfKeUl9KMf90mZ+nkdRLvEWoV36Y=
+			2fcGEvPC8i7yKZbZa5lVIlkGB3I0OHfP+KTkoEOCe6Q=
 			</data>
 		</dict>
 		<key>Modules/CorvidaeCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J/JKdheROd4I/yFvEXGuQ7q7XFdKPlPpiZOtov6/wD8=
+			eLcmAZSQdm9JoqUxOZvGgTAljEGn7oGqAOc4+qcdRaQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
