@@ -19,7 +19,7 @@ let package = Package(
         .binaryTarget(
             name: "CorvidaeCore",
             //path: "./Sources/CorvidaeCore.xcframework"
-            url: "https://github.com/corvidae-ai/CorvidaeLib/releases/download/2.1.4/CorvidaeCore.xcframework.zip",
+            url: "https://github.com/corvidae-ai/CorvidaeLib/releases/download/2.1.5/CorvidaeCore.xcframework.zip",
             checksum: "5acac6cc0b77429f25420516623c08f3481646ad9d50a33f3253afd519ea6beb"
         ),
         
