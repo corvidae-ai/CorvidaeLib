@@ -16,6 +16,12 @@ let package = Package(
     ],
     targets: [
         // The destination of the framework you will obfuscate the code
-        .binaryTarget(name: "CorvidaeCore", path: "./Sources/CorvidaeCore.xcframework")
+        .binaryTarget(
+            name: "CorvidaeCore",
+            //path: "./Sources/CorvidaeCore.xcframework"
+            url: "https://github.com/corvidae-ai/CorvidaeLib/releases/download/2.1.2/CorvidaeCore.xcframework.zip",
+            checksum: "958342771a01b8cce89f76aff1df30bc55f03e376ab61ec9cddf2ad5e8051cb9"
+        ),
+        
     ]
 )
