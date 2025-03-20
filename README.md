@@ -1,6 +1,6 @@
 # ``CorvidaeLib``
 
-[![Version](https://img.shields.io/badge/version-2.1.7-blue.svg)](https://github.com/username/CorvidaeCore/releases)  
+[![Version](https://img.shields.io/badge/version-2.1.8-blue.svg)](https://github.com/username/CorvidaeCore/releases)  
 
 ## Overview
 
