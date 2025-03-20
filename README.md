@@ -1,6 +1,6 @@
 # ``CorvidaeLib``
 
-[![Version](https://img.shields.io/badge/version-2.1.4-blue.svg)](https://github.com/username/CorvidaeCore/releases)  
+[![Version](https://img.shields.io/badge/version-2.1.7-blue.svg)](https://github.com/username/CorvidaeCore/releases)  
 
 ## Overview
 
@@ -9,7 +9,8 @@
 ## Features
 
 - **Event Tracking**: Track views, and transactions.
-- **Deep Link Support**: Support for deep link tracking for attribution to traffic origin. 
+- **Deep Link Support**: Support for deep link / Universal Link tracking for attribution to traffic origin.
+- **Referrer Support**: Accepts referrer URL for attribution to traffic origin. 
 - **Thread-Safety**: Ensures that configuration and session data is safely accessed and modified.
 - **DEBUG Mode**: Provides logs when in DEBUG mode.
 
@@ -84,12 +85,13 @@ Corvidae.shared.trackView(
     screenName: "Product: 123456"
 )
 ```
-If your application detects an incoming visit from an external URL please also pass the full URL including query string via the `deepLink` parameter:
+If your application detects an incoming visit from an external URL please also pass the full URL including query string via the `deepLink` parameter. If your application detects the referring URL of incoming traffic, please pass it via the `referrer` parameter.
 ```swift
 Corvidae.shared.trackView(
     screenLocation: "com.domain.myApp://product/123456",
     screenName: "Home",
     deepLink: "com.domain.myApp://product/123456?utm_source=google"
+    referrer: "https://google.com"
 )
 ```
 See our docs for further information on handling and tracking inbound links https://docs.corvidae.ai

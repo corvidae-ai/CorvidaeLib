@@ -88,7 +88,7 @@
           {
             "kind": "Function",
             "name": "trackView",
-            "printedName": "trackView(screenLocation:screenName:deepLink:)",
+            "printedName": "trackView(screenLocation:screenName:deepLink:referrer:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -139,11 +139,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12CorvidaeCore0A0C9trackView14screenLocation0E4Name8deepLinkySSSg_A2HtF",
-            "mangledName": "$s12CorvidaeCore0A0C9trackView14screenLocation0E4Name8deepLinkySSSg_A2HtF",
+            "usr": "s:12CorvidaeCore0A0C9trackView14screenLocation0E4Name8deepLink8referrerySSSg_A3ItF",
+            "mangledName": "$s12CorvidaeCore0A0C9trackView14screenLocation0E4Name8deepLink8referrerySSSg_A3ItF",
             "moduleName": "CorvidaeCore",
             "declAttributes": [
               "AccessControl"
@@ -392,70 +407,84 @@
     {
       "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
       "kind": "StringLiteral",
-      "offset": 2962,
+      "offset": 2392,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
       "kind": "StringLiteral",
-      "offset": 2996,
+      "offset": 2960,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
       "kind": "StringLiteral",
-      "offset": 3091,
+      "offset": 2994,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
       "kind": "StringLiteral",
-      "offset": 5741,
+      "offset": 3089,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
       "kind": "StringLiteral",
-      "offset": 5775,
+      "offset": 5737,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
       "kind": "StringLiteral",
-      "offset": 5807,
+      "offset": 5771,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
       "kind": "StringLiteral",
-      "offset": 5880,
+      "offset": 5803,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
       "kind": "StringLiteral",
-      "offset": 5917,
+      "offset": 5835,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
       "kind": "StringLiteral",
-      "offset": 6054,
+      "offset": 5874,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
       "kind": "StringLiteral",
-      "offset": 6090,
+      "offset": 5911,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 6048,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/simontapson\/Documents\/iOSProjects\/CorvidaeCore\/CorvidaeCore\/Corvidae.swift",
+      "kind": "StringLiteral",
+      "offset": 6084,
       "length": 2,
       "value": "\"\""
     }
