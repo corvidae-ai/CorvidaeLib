@@ -1,10 +1,10 @@
 # ``CorvidaeLib``
 
-[![Version](https://img.shields.io/badge/version-2.1.8-blue.svg)](https://github.com/username/CorvidaeCore/releases)  
+[![Version](https://img.shields.io/badge/version-2.2.0-blue.svg)](https://github.com/username/CorvidaeCore/releases)  
 
 ## Overview
 
-`CorvidaeLib` is a Swift library containing our binary package `CorvidaeCore` designed to track events and transactions for your iOS application. It provides a singleton class, `Corvidae`, via the shared instance `Corvidae.shared` that enables thread-safe event tracking into your Corvidae account.
+The **CorvidaeLib** is a small set of tools to track user interactions into your Covidae account. It contains our binary package `CorvidaeCore` which supplies the `Corvidae` class to track views and transactions within your iOS application. 
 
 ## Features
 
@@ -38,6 +38,9 @@ Choose New File.
 3. Select Property List under Resource.
 2. Name the file `Corvidae.plist`.
 3. Inside `Corvidae.plist`, add the required keys value pairs.
+    - **appId**: Your Corvidae unique identifier
+    - **hostname**: The hostname of your Corvidae subdomain
+    - **property**: The name of your iOS application's "property" within Corvidae
 
 Your .plist should look something like this:
 
@@ -85,7 +88,30 @@ Corvidae.shared.trackView(
     screenName: "Product: 123456"
 )
 ```
-If your application detects an incoming visit from an external URL please also pass the full URL including query string via the `deepLink` parameter. If your application detects the referring URL of incoming traffic, please pass it via the `referrer` parameter.
+See our docs for further information on handling and tracking inbound links https://docs.corvidae.ai
+
+#### trackInboundView()
+
+`trackInboundView` is an extension of the `trackView` method. It is intended to be used when your application detects a visit from an external source, and should be called whenever your application is opened or brought into focus by another application or website.
+
+When your application detects an incoming visit with a **deep link** call the `trackInboundView` method with the deepLink parameter set as a valid URL in String format. visit from an external URL please also pass the full URL including query string via the `deepLink` parameter. If your application detects the referring URL of incoming traffic, please pass it via the `referrer` parameter.
+```swift
+Corvidae.shared.trackView(
+    screenLocation: "com.domain.myApp://product/123456",
+    screenName: "Home",
+    deepLink: "com.domain.myApp://product/123456?utm_source=google"
+)
+```
+When your application detects an incoming visit where a referrer URL is available (via `connectionOptions`, `NSUserActivity`, or a third part deferred deeplinking service) call the `trackInboundView` method with the referrer parameter set as a valid URL in String format.
+```swift
+Corvidae.shared.trackView(
+    screenLocation: "com.domain.myApp://product/123456",
+    screenName: "Home",
+    referrer: "https://google.com"
+)
+```
+If both of these conditions are true the method can be supplied with both values.
+
 ```swift
 Corvidae.shared.trackView(
     screenLocation: "com.domain.myApp://product/123456",
@@ -94,7 +120,6 @@ Corvidae.shared.trackView(
     referrer: "https://google.com"
 )
 ```
-See our docs for further information on handling and tracking inbound links https://docs.corvidae.ai
 
 ### trackTransaction()
 

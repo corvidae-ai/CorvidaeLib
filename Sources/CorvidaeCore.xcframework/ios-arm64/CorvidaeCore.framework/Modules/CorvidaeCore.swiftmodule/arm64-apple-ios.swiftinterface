@@ -11,8 +11,9 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class Corvidae {
   public static let shared: CorvidaeCore.Corvidae
-  public func trackView(screenLocation: Swift.String? = "", screenName: Swift.String? = "", deepLink: Swift.String? = "", referrer: Swift.String? = "")
-  public func trackTransaction(transactionType: Swift.String, transactionId: Swift.String, transactionTotal: Foundation.Decimal, screenLocation: Swift.String? = "", screenName: Swift.String? = "", shipping: Foundation.Decimal? = nil, tax: Foundation.Decimal? = nil, currency: Swift.String? = "")
-  public func getConfig() -> (appId: Swift.String, hostname: Swift.String, property: Swift.String)
+  public func getConfig() -> (appId: Swift.String, hostname: Swift.String, property: Swift.String)?
+  public func trackView(screenLocation: Swift.String? = "", screenName: Swift.String? = "")
+  public func trackInboundView(screenLocation: Swift.String? = "", screenName: Swift.String? = "", deepLinkURL: Foundation.URL? = nil, referrerURL: Foundation.URL? = nil, referrerApp: Swift.String? = "")
+  public func trackTransaction(transactionType: Swift.String, transactionId: Swift.String, transactionTotal: Foundation.Decimal, shipping: Foundation.Decimal? = nil, tax: Foundation.Decimal? = nil, currency: Swift.String? = "", screenLocation: Swift.String? = "", screenName: Swift.String? = "")
   @objc deinit
 }
